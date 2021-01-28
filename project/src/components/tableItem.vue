@@ -70,7 +70,7 @@
 				newName: '',
 				newPhone: null,
 				newHead: 'none',
-				items: [{ name: 'Anna', phone: '89096725085', head: 'none' }],
+				items: [{ name: 'Анастасия Борисова', phone: '89096725085', head: 'none' }],
 				isShowInfo: false,
 				info: {},
 			};
@@ -87,7 +87,6 @@
 		},
 		methods: {
 			showInfo(item) {
-				console.log('asd');
 				this.isShowInfo = true;
 				this.info = {
 					name: item.name,
