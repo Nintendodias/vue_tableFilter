@@ -55,6 +55,7 @@
 					</div>
 
 					<button type="submit" class="button">Сохранить</button>
+					<button class="button" @click="modalClose" id="modal_closeButton">X</button>
 				</form>
 			</div>
 		</div>
@@ -196,6 +197,7 @@
 				flex-direction: column;
 				background: #fff;
 				padding: 4em;
+        position: relative;
 
 				.add_item {
 					margin-bottom: 1em;
@@ -214,6 +216,12 @@
 						height: 30px;
 					}
 				}
+        #modal_closeButton {
+          position: absolute;
+          top: 0;
+          right: 0;
+          transform: translate(-10px, 10px)
+        }
 			}
 		}
 	}
