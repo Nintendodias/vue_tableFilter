@@ -120,7 +120,6 @@
 			},
 			findHead(head) {
 				if (this.newHead == head.name) {
-					console.log(this.newHead);
 					return head;
 				}
 			},
